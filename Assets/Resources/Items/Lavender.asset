@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a96a02c48f1bf2f4e92610befd809b0e, type: 3}
+  m_Name: Lavender
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: b861f1fc60b103a4582ee76fa16bb99b, type: 3}
+  itemModel: {fileID: 1572506646538884, guid: 0a20f28f54c8d664ab5946196567ebd1, type: 3}
+  cost: 5
+  itemName: Lavender

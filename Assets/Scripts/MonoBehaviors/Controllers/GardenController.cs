@@ -20,10 +20,13 @@ namespace Mapbox.Examples
         [SerializeField]
         [Geocode]
         string[] _locationStrings;
-        Vector2d[] _locations;
+       // Vector2d[] _locations;
 
         [SerializeField]
         float _spawnScale = 100f;
+
+        [SerializeField]
+        float _plantScale = 10f;
 
         [SerializeField]
         GameObject _markerPrefab;
@@ -31,43 +34,54 @@ namespace Mapbox.Examples
         private DataController dataController;
         private Garden myGarden;
         private GameObject myGardenObject;
+        private Vector3 gardenCenter;
         List<GameObject> _spawnedObjects;
+        List<Vector2d> _locations;
 
         // Start is called before the first frame update
         void Start()
         {
             dataController = FindObjectOfType<DataController>();
             myGarden = dataController.myGarden;
+            _spawnedObjects = new List<GameObject>();
+            _locations = new List<Vector2d>();
             DisplayGardenOnMap();
+            LoadGarden();
         }
 
         void DisplayGardenOnMap()
         {
-            _locationStrings = new string[1];   // only have one for now
-            _locationStrings[0] = myGarden.gardenLatLong;
-            _locations = new Vector2d[_locationStrings.Length];
-            _spawnedObjects = new List<GameObject>();
-            for (int i = 0; i < _locationStrings.Length; i++)
-            {
-                var locationString = _locationStrings[i];
-                _locations[i] = Conversions.StringToLatLon(locationString);
-                var instance = Instantiate(_markerPrefab);
-                instance.transform.localPosition = _map.GeoToWorldPosition(_locations[i], true);
-                instance.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
-                _spawnedObjects.Add(instance);
-            }
+
+            Vector2d location;
+            
+            location = Conversions.StringToLatLon(myGarden.gardenLatLong);
+            _locations.Add(location);
+            myGardenObject = Instantiate(_markerPrefab);
+            gardenCenter = myGardenObject.transform.localPosition = _map.GeoToWorldPosition(location, true);
+            myGardenObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
+            _spawnedObjects.Add(myGardenObject);
+
         }
         void LoadGarden()
         {
-            myGardenObject = (GameObject)Instantiate(_markerPrefab, myGarden.gardenLocation, Quaternion.identity);
             foreach (PlantItem pi in myGarden.gardenPlants)
             {
-                //Rigidbody plantClone = (Rigidbody)Instantiate(plant, pi.plantLocation, Quaternion.identity);
+                Debug.Log("Plant type" + pi.plantType);
+                var item = (Item)Resources.Load("Items/"+pi.plantType, typeof(Item));
+                var instance = Instantiate(item.itemModel);
+                instance.transform.localPosition = pi.plantLocation;
+                instance.transform.localScale = new Vector3(_plantScale, _plantScale, _plantScale);
+                instance.transform.SetParent(myGardenObject.transform);
+                
+                //Rigidbody plantClone = (Rigidbody)Instantiate(plant, pi.planLocation, Quaternion.identity);
                 //plantClone.transform.SetParent(myGardenObject.transform);
 
             }
 
+            
         }
+
+        
         private void Update()
         {
             int count = _spawnedObjects.Count;
@@ -79,6 +93,7 @@ namespace Mapbox.Examples
                 spawnedObject.transform.localScale = new Vector3(_spawnScale, _spawnScale, _spawnScale);
             }
         }
+        
         bool _isInitialized;
 
         ILocationProvider _locationProvider;
@@ -106,36 +121,28 @@ namespace Mapbox.Examples
             
             Debug.Log(LocationProvider.CurrentLocation.LatitudeLongitude);
         }
-        // Update is called once per frame
-        /*
-        void Update()
+        public void AddPlant(Item newItem)
         {
-            if (Input.GetMouseButtonDown(0) && GUIUtility.hotControl == 0)
-            {
-                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                RaycastHit hit;
-                if (Physics.Raycast(ray, out hit))
-                {
-                    Debug.Log("Name = " + hit.collider.name);
-                    Debug.Log("Tag = " + hit.collider.tag);
-                    Debug.Log("Hit Point = " + hit.point);
-                    Debug.Log("Object position = " + hit.collider.gameObject.transform.position);
-                    Debug.Log("--------------");
-                }
-                if (hit.collider.name == "Ground")
-                {
-                    //Rigidbody plantClone = (Rigidbody)Instantiate(plant, hit.point, Quaternion.identity);
-                    //plantClone.transform.SetParent(myGardenObject.transform);
-                    PlantItem pItem = new PlantItem();
-                    pItem.plantLocation = hit.point;
-                    pItem.plantStage = "New";
-                    pItem.plantType = "Tulip";
-                    myGarden.gardenPlants.Add(pItem);
-                }
-            }
+            Vector2d myLocationLatLon = LocationProvider.CurrentLocation.LatitudeLongitude;
+            Vector2d gardenCenterLatLon = _locations[0];
 
+            Vector3 myLocationWorld = _map.GeoToWorldPosition(myLocationLatLon, true);
+            Vector3 gardenCenterWorld = _map.GeoToWorldPosition(gardenCenterLatLon, true);
+
+            PlantItem pi = new PlantItem();
+            pi.plantType = newItem.itemName;
+            pi.plantStage = "New";
+            pi.plantLocation = gardenCenterWorld - myLocationWorld;
+            myGarden.gardenPlants.Add(pi);
+
+            var item = (Item)Resources.Load("Items/" + pi.plantType, typeof(Item));
+            var instance = Instantiate(item.itemModel);
+            instance.transform.localPosition = pi.plantLocation;
+            instance.transform.localScale = new Vector3(_plantScale, _plantScale, _plantScale);
+            instance.transform.SetParent(myGardenObject.transform);
+
+            dataController.SaveGameData();
         }
-        */
         public void ReturnToMenu()
         {
             dataController.SaveGameData();

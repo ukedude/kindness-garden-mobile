@@ -8,5 +8,6 @@ public class GameData
     public QuestData[] allQuestData;
     public Garden myGarden;
     public FeedbackData[] feedbackData;
+    public List<string> myBasket;
 
 }

@@ -11,6 +11,7 @@ public class DataController : MonoBehaviour
     public List<QuestData> allQuestData;
     public List<FeedbackData> allFeedbackData;
     public Garden myGarden;  // just one for now
+    public List<string> myBasket;
     
     public PlayerProfile playerProfile;
 
@@ -136,7 +137,13 @@ public class DataController : MonoBehaviour
         {
             string dataAsJson = File.ReadAllText(filePath);
             GameData loadedData = JsonUtility.FromJson<GameData>(dataAsJson);
-          
+
+            // get basket inventory
+            myBasket = loadedData.myBasket;
+            if (myBasket == null)
+            {
+                myBasket = new List<string>();
+            }
 
             // Get garden items. 
             // Create a new one if not found.  This will be depricated later when we allow the player to create one.
@@ -196,7 +203,7 @@ public class DataController : MonoBehaviour
         gameData.allKindnessActs = allKindnessActs;
         gameData.allQuestData = allQuestData.ToArray();
         gameData.feedbackData = allFeedbackData.ToArray();
-
+        gameData.myBasket = myBasket;
         gameData.myGarden = myGarden;
         Debug.Log(string.Format("Saving {0} quest data items.",gameData.allQuestData.Length));
         Debug.Log(string.Format("Saving {0} garden plant items.", gameData.myGarden.gardenPlants.Count));
