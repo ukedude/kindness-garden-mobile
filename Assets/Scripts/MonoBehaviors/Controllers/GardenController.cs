@@ -1,5 +1,5 @@
-namespace Mapbox.Examples
-{
+//namespace Mapbox.Examples
+//{
     using System.Collections;
     using System.Collections.Generic;
     using UnityEngine;
@@ -33,9 +33,9 @@ namespace Mapbox.Examples
 
         private DataController dataController;
         private Garden myGarden;
-        private GameObject myGardenObject;
+        public GameObject myGardenObject;
         private Vector3 gardenCenter;
-        List<GameObject> _spawnedObjects;
+        private List<GameObject> _spawnedObjects;
         List<Vector2d> _locations;
 
         // Start is called before the first frame update
@@ -150,4 +150,4 @@ namespace Mapbox.Examples
             SceneManager.LoadScene("scene-menu");
         }
     }
-}
+//}

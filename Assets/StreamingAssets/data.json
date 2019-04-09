@@ -5072,6 +5072,1334 @@
             "communityKindness": 0.0,
             "questJournal": "",
             "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Cook a meal or do a load of laundry for a friend who just had a baby or is going through a difficult time",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Send a friend a funny video from YouTube",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Tape coins around a playground for kids to find.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Write a list of things that you adore about a friend. Send it to them.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Practice self-kindness and spend 30 minutes doing something you love today.",
+                    "requiresObservation": false,
+                    "requiresAction": false,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Send a ‘Thank you’ card or note to the officers at your local fire station.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Take all your change to Coinstar and donate your collection to charity",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$$",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Babysit for free for anyone who could use the time out alone",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Substantial",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Donate your old eyeglasses so someone else can use them.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Make a family member breakfast in bed, or bring them coffee",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "See somebody stop to encourage/help a parent struggling with kids",
+                    "requiresObservation": true,
+                    "requiresAction": false,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "When you're throwing something away on the street, pick up any litter around you and put that in the trash too.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Help tutor a struggling student",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Post inspirational sticky notes around your neighborhood, office, school, etc.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Try to make sure every person in a group conversation feels included",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Offer to return a shopping cart to the store for someone loading groceries in their car.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Try to make sure every person in a group conversation feels included",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Help someone load their luggage into the overhead bin",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Tweet or Facebook message a genuine compliment to three people right now",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Help a senior with their groceries",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Pay for someone’s meal at a restaurant",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Give someone a book you think they'd like.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Offer to return a shopping cart to the store for someone loading groceries in their car.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Smile at five strangers",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Invite someone who may be alone over for dinner",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Substantial",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Say yes at the store when the cashier asks if you want to donate $1 to whichever cause",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Pay the toll for the person behind you",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Write a list of things that you adore about a friend. Send it to them.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Check in daily by text with somebody currently going through a hard time",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "See siomebody stopping to assist someone who looks lost",
+                    "requiresObservation": true,
+                    "requiresAction": false,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Insert coins into someone’s parking meter",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": true,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Buy a lottery ticket for a stranger",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Answer that email you've been avoiding",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Carry a $5 gift card with you and give it someone random",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Stop to assist someone who looks lost",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Compliment someone to their boss",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Offer to return a shopping cart to the store for someone loading groceries in their car.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Encounter someone in customer service who is especially kind? Take an extra five minutes to tell their manager.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Say thank you to a janitor",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Volunteer at a local charity.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Substantial",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Give someone a hug. Ask first!",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Write a kind message on your mirror with a dry erase marker for yourself, your significant other or a family member",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Talk to someone at work whom you haven't talked to before",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Take out your neighbor's trash/recycle bins for them",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": true,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Let someone go in front of you in line",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Try to make sure every person in a group conversation feels included",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Take all your change to Coinstar and donate your collection to charity",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$$",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Tape coins around a playground for kids to find.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Compliment the first three people you talk to today",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": true,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Say something encouraging to a parent who’s struggling with rambunctious kids in a restaurant or grocery store.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Compliment the first three people you talk to today",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": true,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Send a gratitude email to a coworker who deserves more recognition.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Practice self-kindness and spend 30 minutes doing something you love today.",
+                    "requiresObservation": false,
+                    "requiresAction": false,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Send a gratitude email to a coworker who deserves more recognition.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Collect all the shopping carts in a parking lot",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Let them have the parking space",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "See somebody stop to encourage/help a parent struggling with kids",
+                    "requiresObservation": true,
+                    "requiresAction": false,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Relay an overheard compliment",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Buy a lottery ticket for a stranger",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "$",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Send a letter to a good friend instead of a text",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                true,
+                true,
+                true,
+                true
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
+        },
+        {
+            "name": "",
+            "timeLimitInSeconds": 30,
+            "timeRemaining": 30.0,
+            "isActive": false,
+            "kindnessActs": [
+                {
+                    "actionText": "Play board games with senior citizens at a nursing home",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Walk a neighbor’s dog",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Collect soda can tabs to donate to Ronald McDonald House for sick children and their families.",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Moderate",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                },
+                {
+                    "actionText": "Check in daily by text with somebody currently going through a hard time",
+                    "requiresObservation": false,
+                    "requiresAction": true,
+                    "fundsRequired": "0",
+                    "timeRequired": "Minimal",
+                    "isGroupActivity": false,
+                    "isCustomizable": false,
+                    "isKidFriendly": false,
+                    "isOutdoors": false,
+                    "isPlanetFriendly": false,
+                    "isSelfKindness": false,
+                    "isAnonymous": false,
+                    "isVirtual": false,
+                    "kindnessReward": 5
+                }
+            ],
+            "actComplete": [
+                false,
+                false,
+                false,
+                false
+            ],
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0,
+            "questJournal": "",
+            "questComplete": false
         }
     ],
     "myGarden": {
@@ -5079,7 +6407,7 @@
             "x": 0.0,
             "y": 0.0
         },
-        "gardenLatLong": "34.472441, -118.560461",
+        "gardenLatLong": "34.472529, -118.560928",
         "gardenName": "Steve's Garden",
         "gardenPlants": [
             {
@@ -5243,6 +6571,42 @@
                 },
                 "plantType": "Aster",
                 "plantStage": "New"
+            },
+            {
+                "plantLocation": {
+                    "x": 0.7827911376953125,
+                    "y": 0.0,
+                    "z": -2.826509714126587
+                },
+                "plantType": "Tulip",
+                "plantStage": "New"
+            },
+            {
+                "plantLocation": {
+                    "x": -8.50147533416748,
+                    "y": 0.0,
+                    "z": 1.9432249069213868
+                },
+                "plantType": "Sunflower",
+                "plantStage": "New"
+            },
+            {
+                "plantLocation": {
+                    "x": -8.50147533416748,
+                    "y": 0.0,
+                    "z": 1.9432249069213868
+                },
+                "plantType": "Sunflower",
+                "plantStage": "New"
+            },
+            {
+                "plantLocation": {
+                    "x": -8.50147533416748,
+                    "y": 0.0,
+                    "z": 1.9432249069213868
+                },
+                "plantType": "Sunflower",
+                "plantStage": "New"
             }
         ]
     },
@@ -5318,12 +6682,162 @@
             "playerKindness": 0.0,
             "recipientReaction": 0.0,
             "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 5:02:56 PM",
+            "playerKindness": 0.5000000596046448,
+            "recipientReaction": 0.4135902225971222,
+            "communityKindness": 0.4675963819026947
+        },
+        {
+            "feedbackDate": "4/7/2019 5:03:28 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 5:07:02 PM",
+            "playerKindness": 0.7937462329864502,
+            "recipientReaction": 0.5835424661636353,
+            "communityKindness": 0.3571692705154419
+        },
+        {
+            "feedbackDate": "4/7/2019 6:03:38 PM",
+            "playerKindness": 0.7329016327857971,
+            "recipientReaction": 0.6569554805755615,
+            "communityKindness": 0.4594953656196594
+        },
+        {
+            "feedbackDate": "4/7/2019 6:16:37 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 6:43:54 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 6:44:37 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 6:48:49 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:05:58 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:06:45 PM",
+            "playerKindness": 0.6158815026283264,
+            "recipientReaction": 0.4757457375526428,
+            "communityKindness": 0.4919152557849884
+        },
+        {
+            "feedbackDate": "4/7/2019 7:07:29 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:08:19 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:08:56 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:10:10 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:10:26 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:21:34 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:23:12 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:33:09 PM",
+            "playerKindness": 0.7582170367240906,
+            "recipientReaction": 0.25697222352027895,
+            "communityKindness": 0.6974600553512573
+        },
+        {
+            "feedbackDate": "4/7/2019 7:33:24 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:34:09 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:34:54 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:35:40 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:36:25 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:37:12 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
+        },
+        {
+            "feedbackDate": "4/7/2019 7:42:14 PM",
+            "playerKindness": 0.0,
+            "recipientReaction": 0.0,
+            "communityKindness": 0.0
         }
     ],
     "myBasket": [
         "Aster",
         "Aster",
-        "Sunflower",
-        "Aster"
+        "Aster",
+        "Lavender"
     ]
 }

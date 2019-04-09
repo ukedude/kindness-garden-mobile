@@ -9,11 +9,13 @@ public class Inventory : MonoBehaviour
     public const int numItemSlots = 9;
 
     private DataController dataController;
-    private Mapbox.Examples.GardenController gardenController;
+    //   private Mapbox.Examples.GardenController gardenController;
+    private GardenController gardenController;
     private void Start()
     {
         dataController = FindObjectOfType<DataController>();
-        gardenController = FindObjectOfType<Mapbox.Examples.GardenController>();
+        //        gardenController = FindObjectOfType<Mapbox.Examples.GardenController>();
+        gardenController = FindObjectOfType<GardenController>();
         foreach (string plant in dataController.myBasket)
         {
             var item = (Item)Resources.Load("Items/" + plant, typeof(Item));
