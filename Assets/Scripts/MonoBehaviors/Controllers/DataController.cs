@@ -4,6 +4,9 @@ using System.IO;
 using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Firebase;
+using Firebase.Unity.Editor;
+using Firebase.Database;
 // This code came mostly from the Unity tutorial for a quiz game
 
 public class DataController : MonoBehaviour
@@ -18,10 +21,14 @@ public class DataController : MonoBehaviour
     private string gameDataFileName = "data.json";
     public KindnessActsData[] allKindnessActs;
 
+    public bool questDataLoaded;
+
     // Start is called before the first frame update
     void Start()
     {
         DontDestroyOnLoad(gameObject);
+        // Set this before calling into the realtime database.
+        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl("https://kindness-garden.firebaseio.com/");
 
         LoadGameData();
         LoadPlayerProfile();
@@ -109,11 +116,24 @@ public class DataController : MonoBehaviour
 
         // create a new quest object
         QuestData newQuest = new QuestData();
-
+        int iSelected;
         // Randomly get 4 quest items
         for (int i = 0; i < 4;  i++)
         {
-            newQuest.kindnessActs[i] = allKindnessActs[UnityEngine.Random.Range(0, allKindnessActs.Length)];
+            Debug.Log("CreateNewQuest: allKindnessActs.Length.ToString()" + allKindnessActs.Length.ToString());
+            try
+            {
+                iSelected = UnityEngine.Random.Range(0, allKindnessActs.Length);
+            }
+            catch (Exception e)
+            {
+                print("error "+e.ToString());
+                return null;
+            }
+            KindnessActsData kact = new KindnessActsData();
+            kact = allKindnessActs[iSelected];
+            newQuest.kindnessActs[i] = kact;
+            Debug.Log(newQuest.kindnessActs[i].actionText);
             newQuest.actComplete[i] = false;
 
         }
@@ -128,11 +148,60 @@ public class DataController : MonoBehaviour
 
         return newQuest;
     }
+    // copied from https://forum.unity.com/threads/how-to-load-an-array-with-jsonutility.375735/
+        public class JsonHelper
+    {
+        public static T[] getJsonArray<T>(string json)
+        {
+            string newJson = "{ \"array\": " + json + "}";
+            Wrapper<T> wrapper = JsonUtility.FromJson<Wrapper<T>>(newJson);
+            return wrapper.array;
+        }
+
+        [Serializable]
+        private class Wrapper<T>
+        {
+            public T[] array;
+        }
+    }
+    public bool IsQuestLoaded()
+    {
+        return questDataLoaded;
+    }
+    private void GetActDataFromDB()
+    {
+        questDataLoaded = false;
+        //get data from the database
+        FirebaseDatabase.DefaultInstance
+      .GetReference("allKindnessActs")
+      .GetValueAsync().ContinueWith(task => {
+          if (task.IsFaulted)
+          {
+              // Handle the error...
+              Debug.Log("Error retrieving data from DB: " + task.Exception);
+          }
+          else if (task.IsCompleted)
+          {
+              DataSnapshot snapshot = task.Result;
+              Debug.Log("Kind acts retrieved from DB:" + snapshot.ChildrenCount.ToString());
+              // Do something with snapshot...
+              //string kadata = "{'allKindnessActs': " + snapshot.GetRawJsonValue() + "}";
+              //Debug.Log(kadata);
+              //allKindnessActs = JsonUtility.FromJson<KindnessActsData[]>(kadata);
+              allKindnessActs = JsonHelper.getJsonArray<KindnessActsData>(snapshot.GetRawJsonValue());
+              Debug.Log("Kind acts loaded DB:" + allKindnessActs.Length.ToString());
+              questDataLoaded = true;
+             // EventManager.TriggerEvent("questready");
+              
+          }
+      });
+    }
     private void LoadGameData()
     {
-        //QuestData[] qData;
-        string filePath = Path.Combine(Application.streamingAssetsPath, gameDataFileName);
+        GetActDataFromDB();
 
+        //string filePath = Path.Combine(Application.streamingAssetsPath, gameDataFileName);
+        string filePath = Path.Combine(Application.persistentDataPath, gameDataFileName);
         if (File.Exists(filePath))
         {
             string dataAsJson = File.ReadAllText(filePath);
@@ -184,7 +253,7 @@ public class DataController : MonoBehaviour
                 allFeedbackData = new List<FeedbackData>();
             }
             // Set kindess act inventory.
-            allKindnessActs = loadedData.allKindnessActs;
+            //allKindnessActs = loadedData.allKindnessActs;
             
         }
         else
@@ -198,6 +267,7 @@ public class DataController : MonoBehaviour
     }
    public void SaveGameData()
     {
+        
         GameData gameData = new GameData();
 
         gameData.allKindnessActs = allKindnessActs;
@@ -207,14 +277,32 @@ public class DataController : MonoBehaviour
         gameData.myGarden = myGarden;
         Debug.Log(string.Format("Saving {0} quest data items.",gameData.allQuestData.Length));
         Debug.Log(string.Format("Saving {0} garden plant items.", gameData.myGarden.gardenPlants.Count));
+
+
         
 
-
+        // save to local file
+        // streaming assets dosen't work on Android
         string dataAsJson = JsonUtility.ToJson(gameData,true);
         string filePath = Path.Combine(Application.streamingAssetsPath, gameDataFileName);
-        
+        string filePath2 = Path.Combine(Application.persistentDataPath, gameDataFileName);
+
         File.WriteAllText(filePath, dataAsJson);
+        File.WriteAllText(filePath2, dataAsJson);
         Debug.Log("Game Data Saved");
+        Debug.Log(filePath2);
+
+        // Save to firebase
+        // need to add code to make sure logged in
+        AuthenticationController auth = FindObjectOfType<AuthenticationController>();
+        string userId = auth.userID;
+
+        //string userId = Firebase.Auth.FirebaseAuth.DefaultInstance.CurrentUser.UserId;
+        // Get the root reference location of the database.
+        DatabaseReference mDatabaseRef = FirebaseDatabase.DefaultInstance.RootReference;
+        string questJson = JsonUtility.ToJson(gameData.allQuestData[playerProfile.currentQuestIndex], true);
+        string key = mDatabaseRef.Child("quests").Child(userId).Push().Key;
+        mDatabaseRef.Child("quests").Child(userId).Child(key).SetRawJsonValueAsync(questJson);
     }
     // This function could be extended easily to handle any additional data we wanted to store in our PlayerProgress object
     private void LoadPlayerProfile()

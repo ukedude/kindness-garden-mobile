@@ -38,8 +38,10 @@ public class QuestController : MonoBehaviour
     void Start()
     {
         dataController = FindObjectOfType<DataController>();
-        currentQuestData = dataController.GetActiveQuestData();
-        DisplayQuest();
+        //EventManager.StartListening("questready", DisplayQuest);
+
+        //currentQuestData = dataController.GetActiveQuestData();
+        StartCoroutine(DisplayQuest());
 
   //      timeRemaining = currentQuestData.timeLimitInSeconds;
 
@@ -52,7 +54,7 @@ public class QuestController : MonoBehaviour
 
     }
 
-    private void DisplayQuest()
+    IEnumerator DisplayQuest()
     {
         /*
         questNameText.text = currentQuestData.name;
@@ -62,9 +64,14 @@ public class QuestController : MonoBehaviour
         ckSlider.value = currentQuestData.communityKindness;
         rrSlider.value = currentQuestData.recipientReaction;
         */
+        while (!dataController.questDataLoaded)
+            yield return new WaitForSeconds(5);
+        currentQuestData = dataController.GetActiveQuestData();
         activityPool = currentQuestData.kindnessActs;
+        Debug.Log("Display quest: activitypool lenght: "+activityPool.Length.ToString());
         actComplete = currentQuestData.actComplete;
         ShowActivities();
+        
     }
 
     private void ShowActivities()

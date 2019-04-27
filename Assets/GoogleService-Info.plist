@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>555445672924-8eu1hnsm79fk8a3s92taraci3ggj75bd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.555445672924-8eu1hnsm79fk8a3s92taraci3ggj75bd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB6OaVhdEtpLSyPiCGuFm10dAYsMZmFLrg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>555445672924</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>comm.kindagious.garden</string>
+	<key>PROJECT_ID</key>
+	<string>kindness-garden</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kindness-garden.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:555445672924:ios:948c1cd6f2d3e852</string>
+	<key>DATABASE_URL</key>
+	<string>https://kindness-garden.firebaseio.com</string>
+</dict>
+</plist>
